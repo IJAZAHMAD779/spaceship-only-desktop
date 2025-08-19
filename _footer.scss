@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 5em;
+    color: $text-color;
+    font-family: $main-font;
+  }
+  p {
+    margin-top: -20px;
+    font-size: medium;
+    color: $text-color;
+    font-family: $main-font;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: $text-color;
+  }
+}
+.robot {
+  display: flex;
+  flex-direction: column;
+  img {
+    height: 550x;
+    width: 550px;
+  }
+}

@@ -1,0 +1,44 @@
+// $primary-color:black;
+// $textcolor:white;
+// $mysizeh:4em;
+// $mysizep:12px;
+
+// 🎨 Colors
+$primary-color: #000;
+$text-color: #fff;
+$secondary-color: #ccc;
+$accent-color: rgb(182, 177, 177);
+$card-bg: #2c2c2c;
+// ✍️ Fonts
+$main-font: 'Inter', sans-serif;
+// 🔠 Font Sizes
+$font-xl: 4em;     // very big heading
+$font-lg: 3em;     // big text
+$font-md: 1.5em;   // medium text
+$font-sm: 14px;    // small text
+$mysizeh: 36px;    // custom size
+// 📏 Spacing
+$margin-large: 100px;
+$margin-medium: 50px;
+$margin-small: 20px;
+
+$padding-large: 20px;
+$padding-medium: 15px;
+$padding-small: 10px;
+
+$gap-large: 100px;
+$gap-medium: 50px;
+$gap-small: 20px;
+
+// 🖼️ Images
+$image-width-full: 100%;
+$image-height-half: 50vh;
+$image-height-full: 100vh;
+
+// 🟦 Borders
+$border-radius: 20px;
+$border-radius-large: 50px;
+
+// 🌫️ Shadows
+$shadow-default: 0 4px 10px rgba(0, 0, 0, 0.6);
+$shadow-light: 0 2px 5px rgba(0, 0, 0, 0.3);

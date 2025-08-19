@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "default";
+@import "achievements";
+@import "origin";
+@import "review";
+@import "footer";
+.imageinfo {
+  padding: 50px;
+  h5 {
+    color: $text-color;
+    font-size: 36px;
+    font-family: $main-font;
+    margin-left: 20px;
+  }
+}
+.photo {
+  @include flex-center(row);
+  img {
+    margin-inline: 10px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid $text-color;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  }
+}

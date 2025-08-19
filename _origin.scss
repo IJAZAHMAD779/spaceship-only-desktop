@@ -1,0 +1,28 @@
+.origin {
+  display: flex;
+  flex-direction: column;
+  font-family: $main-font;
+  margin-top: -50px;
+  padding-left: 100px;
+  padding-right: 70px;
+  .heading {
+    font-size: 40px;
+    color: $text-color;
+    font-weight: 200;
+    margin-left: -40px;
+  }
+  .content {
+    @include flex-center(row);
+    color: $secondary-color;
+    margin-left: -50px;
+    margin-top: -50px;
+  }
+  .p1,
+  .p2 {
+    font-size: 36px;
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 30px;
+  }
+}
