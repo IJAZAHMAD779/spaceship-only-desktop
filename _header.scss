@@ -1,14 +1,14 @@
 header {
-  background-image: url(/image.png);
+  background-image:url("https://t4.ftcdn.net/jpg/09/85/26/97/360_F_985269727_WN0ixm78uQLACi1Eh9zTTJNhN6gMpkTl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
   width: 100%;
   height: 100vh;
   font-family: $main-font;
   color: $text-color;
   @include flex-center(row);
-  img {
-    width: 100%;
-    height: 50vh;
-  }
   #a {
     @include flex-center(column);
     font-size: $font-xl;
